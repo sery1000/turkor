@@ -8,4 +8,14 @@ const config: Config = {
   plugins: [],
 };
 
-export default config;
+export default {
+  theme: {
+    extend: {
+      colors: {
+        cherry: '#f9d6e3',
+        forsythia: '#fff176',
+        azalea: '#ff8da1',
+      },
+    },
+  },
+};

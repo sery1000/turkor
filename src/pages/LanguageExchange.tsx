@@ -1,12 +1,13 @@
 import React from 'react';
+import languageImg from '../assets/language.jpg';
 
-const LanguageExchange = () => {
+const Language = () => {
   return (
-    <div>
-      <h1 className="text-2xl font-bold mb-4">언어교류</h1>
-      <p>한국어 ↔ 튀르키예어 언어교환 및 교육 프로그램 소개</p>
+    <div className="p-8 text-center">
+      <h1 className="text-3xl font-bold mb-6">언어 교류</h1>
+      <img src={languageImg} alt="언어 교류" className="mx-auto mb-6 rounded-2xl shadow-lg w-[25cm] h-[15cm] object-cover"/>
     </div>
   );
 };
 
-export default LanguageExchange;
+export default Language;

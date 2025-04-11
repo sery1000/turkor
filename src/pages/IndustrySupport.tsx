@@ -1,12 +1,13 @@
 import React from 'react';
+import industryImg from '../assets/industry.jpg';
 
-const IndustrySupport = () => {
+const Industry = () => {
   return (
-    <div>
-      <h1 className="text-2xl font-bold mb-4">산업지원</h1>
-      <p>한국과 튀르키예 간의 산업 협력 및 기업 진출 지원 페이지입니다.</p>
+    <div className="p-8 text-center">
+      <h1 className="text-3xl font-bold mb-6">산업 교류</h1>
+      <img src={industryImg} alt="산업 교류" className="mx-auto mb-6 rounded-2xl shadow-lg w-[25cm] h-[15cm] object-cover"/>
     </div>
   );
 };
 
-export default IndustrySupport;
+export default Industry;

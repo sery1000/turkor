@@ -4,16 +4,15 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <nav className="bg-white shadow p-4 flex justify-between">
-      <div className="text-xl font-bold text-pink-600">TURKOR</div>
-      <div className="space-x-4">
-        <Link to="/" className="text-gray-700 hover:text-pink-500">Home</Link>
-        <Link to="/industry-support" className="text-gray-700 hover:text-pink-500">산업지원</Link>
-        <Link to="/job-matching" className="text-gray-700 hover:text-pink-500">취업매칭</Link>
-        <Link to="/language-exchange" className="text-gray-700 hover:text-pink-500">언어교류</Link>
-        <Link to="/education-programs" className="text-gray-700 hover:text-pink-500">교육프로그램</Link>
-      </div>
-    </nav>
+    <nav className="bg-pink-200 text-white px-6 py-4 shadow-lg mb-8 rounded-b-3xl">
+     <ul className="flex justify-center space-x-8 text-lg font-semibold">
+      <li><Link to="/" className="hover:text-yellow-100 transition">홈</Link></li>
+      <li><Link to="/education" className="hover:text-yellow-100 transition">교육</Link></li>
+      <li><Link to="/industry" className="hover:text-yellow-100 transition">산업</Link></li>
+      <li><Link to="/language" className="hover:text-yellow-100 transition">언어교류</Link></li>
+      <li><Link to="/jobs" className="hover:text-yellow-100 transition">취업</Link></li>
+    </ul>
+   </nav>
   );
 };
 
