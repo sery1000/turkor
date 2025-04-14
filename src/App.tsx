@@ -5,7 +5,7 @@ import EducationPrograms from './pages/EducationPrograms';
 import IndustrySupport from './pages/IndustrySupport';
 import LanguageExchange from './pages/LanguageExchange';
 import JobMatching from './pages/JobMatching';
-
+import Login from './pages/Login';
 function App() {
   return (
     <>
@@ -27,6 +27,7 @@ function App() {
         <Route path="/industry" element={<IndustrySupport />} />
         <Route path="/language" element={<LanguageExchange />} />
         <Route path="/jobs" element={<JobMatching />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </>
   );
