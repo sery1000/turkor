@@ -1,0 +1,15 @@
+{
+  "login": "로그인",
+  "email": "이메일",
+  "password": "비밀번호",
+  "agreeTerms": "약관에 동의합니다",
+  "sendCode": "인증번호 발송",
+  "verifyCode": "인증번호 입력 (6자리)",
+  "announcementTitle": "공지사항",
+  "sampleNotice": "이곳은 다국어 테스트용 공지사항입니다.",
+  "signup": "회원가입",
+  "next": "다음",
+  "agreeTerms": "약관에 동의해주세요",
+  "termsContent": "여기에 약관 내용이 들어갑니다. 이 내용은 한국어입니다."
+    
+}

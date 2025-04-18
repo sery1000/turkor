@@ -6,6 +6,7 @@ const port = 4000;
 app.use(cors());
 app.use(express.json());
 
+app.use(cors({ origin: 'http://localhost:5173' }));
 app.use('/api', require('./routes/auth'));
 app.use('/api', require('./routes/verify'));
 

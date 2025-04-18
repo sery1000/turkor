@@ -1,21 +1,16 @@
-import type { Config } from 'tailwindcss';
-
-const config: Config = {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-};
-
-export default {
+// tailwind.config.js
+module.exports = {
   theme: {
     extend: {
-      colors: {
-        cherry: '#f9d6e3',
-        forsythia: '#fff176',
-        azalea: '#ff8da1',
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: 0 },
+          '100%': { opacity: 1 }
+        }
       },
-    },
-  },
-};
+      animation: {
+        fadeIn: 'fadeIn 1s ease-out forwards'
+      }
+    }
+  }
+}

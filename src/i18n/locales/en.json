@@ -1,0 +1,11 @@
+{
+  "login": "Login",
+  "email": "Email",
+  "password": "Password",
+  "agreeTerms": "I agree to the terms",
+  "sendCode": "Send verification code",
+  "verifyCode": "Enter verification code (6 digits)",
+  "announcementTitle": "Announcements",
+  "sampleNotice": "This is a sample announcement for multilingual testing.",
+  "signup": "Sign Up"
+}

@@ -1,0 +1,14 @@
+{
+  "login": "Giriş Yap",
+  "email": "E-posta",
+  "password": "Şifre",
+  "agreeTerms": "Şartları kabul ediyorum",
+  "sendCode": "Doğrulama kodu gönder",
+  "verifyCode": "Doğrulama kodunu gir (6 haneli)",
+  "announcementTitle": "Duyurular",
+  "sampleNotice": "Bu, çok dilli test için örnek bir duyurudur.",
+  "greetingTitle": "Merhaba, ben Başkan Kim Jeong-min.",
+  "greetingBody": "TURKOR, Türkiye ile Kore arasında dostluğu ve iş birliğini güçlendirmek için kurulmuştur. Eğitim, kültür ve ticaret alanlarında halklar arası etkileşimi teşvik ediyoruz.",
+  "greetingClosing": "Katılımınız bizim için çok kıymetlidir.",
+  "signup": "Kayıt Ol"
+}
